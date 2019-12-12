@@ -30,19 +30,15 @@ class MainBox extends React.Component {
     const detailsToDisplay = () =>{
       switch(this.state.page){
         case 'profile': 
-        console.log(1)
         return <Profile/>
         break;
         case 'photo': 
-        console.log(2)
         return <Photos/>
         break;
         case 'cocktail': 
-        console.log(3)
         return <Cocktails/>
         break;
         case 'pokemon': 
-        console.log(4)
         return <Pokemon/>
         break;
       }
